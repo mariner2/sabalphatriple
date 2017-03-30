@@ -2,7 +2,7 @@ SUMMARY = "Linux kernel for ${MACHINE}"
 SECTION = "kernel"
 LICENSE = "GPLv2"
 PACKAGE_ARCH = "${MACHINE_ARCH}"
-SRC = "20160520"
+SRC = "20170220"
 
 inherit kernel machine_kernel_pr
 
@@ -21,7 +21,7 @@ PKG_kernel-image = "kernel-image"
 RPROVIDES_kernel-base = "kernel-${KERNEL_VERSION}"
 RPROVIDES_kernel-image = "kernel-image-${KERNEL_VERSION}"
 
-SRC_URI += "http://source.mynonpublic.com/alphatriplehd/sab-linux-${PV}-${SRC}.tar.xz \
+SRC_URI += "http://source.mynonpublic.com/broadmedia/broadmedia-linux-${PV}-${SRC}.tar.xz \
     file://defconfig \
     file://kernel-add-support-for-gcc6.patch \
     file://0001-Support-TBS-USB-drivers-for-4.1-kernel.patch \
