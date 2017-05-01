@@ -13,7 +13,7 @@ SRC_URI[sha256sum] = "db8123359b6447fa6a16fb570ee2b2e70e194c3fd22daa95e725fccfbd
 PV = "${KV}+${SRCDATE}"
 PR = "r0"
 
-SRC_URI = "http://dvbstand.com/alphatriplehd/drivers/alphatriplehd-drivers-${KV}-${GCCREV}-${SRCDATE}.zip"
+SRC_URI = "http://dvbstand.com/alphatriplehd/drivers/alphatriple-drivers-${KV}-${GCCREV}-${SRCDATE}.zip"
 
 S = "${WORKDIR}"
 
